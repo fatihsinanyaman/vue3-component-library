@@ -1,12 +1,7 @@
 {
-  "name": "squanch-vue3",
-  "version": "0.0.0",
-  "babel": {
-    "plugins": [
-      "@babel/plugin-proposal-class-properties",
-      "@babel/plugin-proposal-private-methods"
-    ]
-  },
+  "name": "vue-component-library",
+  "version": "1.0.0",
+  "description": "VueJS Component Library with Lerna and Vite",
   "scripts": {
     "initialize": "npm install && npm run clean && lerna bootstrap",
     "clean": "lerna clean --yes && lerna exec -- rm -rf dist",
@@ -16,6 +11,12 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "author": {
+    "name": "Fatih Sinan Yaman",
+    "email": "info@sinanyaman.net",
+    "url": "https://sinanyaman.net"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.0",
     "@storybook/addon-actions": "^6.3.0-alpha.17",
