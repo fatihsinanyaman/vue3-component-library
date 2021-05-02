@@ -2,6 +2,12 @@
   "name": "vue-component-library",
   "version": "1.0.0",
   "description": "VueJS Component Library with Lerna and Vite",
+  "babel": {
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-private-methods"
+    ]
+  },
   "scripts": {
     "initialize": "npm install && npm run clean && lerna bootstrap",
     "clean": "lerna clean --yes && lerna exec -- rm -rf dist",
