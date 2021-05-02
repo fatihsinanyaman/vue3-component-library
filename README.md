@@ -2,7 +2,8 @@
 Blueprint for large Vue JS projects, using the new and exciting [Vite](https://vitejs.dev) build tool and [Lerna](https://lerna.js.org) monorepo manager.
 
 # Live Demo
-Packages storybook live demo [https://squanch-vue3.netlify.app/](https://squanch-vue3.netlify.app/) 
+Packages storybook live demo: [https://squanch-vue3.netlify.app/](https://squanch-vue3.netlify.app/) 
+Packages NPM organization: [squanch-vue3](https://www.npmjs.com/settings/squanch-vue3/packages)
 
 ## Install
 Initialize the project as follows:
@@ -16,13 +17,6 @@ This downloads the project into `vue3-component-library` folder, installs all de
 ## Create New Package
 
     npm run new {packageName}
-
-package files will be automatic generation
-
-## Publish Packages
-Lerna will be publish automaticly all packages indipendent versions under the organization scope. For example: [squanch-vue3](https://www.npmjs.com/settings/squanch-vue3/packages)
-
-    npm run publish
 
 package files will be automatic generation
 
@@ -40,6 +34,13 @@ Run the following to livepreview all packages:
     npm run storybook
 
 This runs storybook for preview & development. 
+
+## Publish Packages
+Lerna will be publish automaticly all packages indipendent versions under the organization scope. For example: [squanch-vue3](https://www.npmjs.com/settings/squanch-vue3/packages)
+
+    npm run publish
+
+package files will be automatic generation
 
 
 ## License
