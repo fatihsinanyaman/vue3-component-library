@@ -2,7 +2,8 @@ import path from "path";
 import merge from "./merge";
 import commonConfiguration from "./vite.common";
 import clientConfiguration from "./vite.client";
-const pkg = require(path.resolve("./", "package.json"));
+const pkg = require(path.resolve("./package.json"));
+console.log('pkg !', pkg);
 
 /**
  * Returns Vite build configuration for common (isomorphic) packages,
