@@ -1,0 +1,25 @@
+{
+    "name": "@squanch-vue3/rick",
+    "description": "Sandbox Component",
+    "version": "1.0.16",
+    "main": "./dist/@squanch-vue3/rick.umd.js",
+    "module": "./dist/@squanch-vue3/rick.es.js",
+    "exports": {
+        ".": {
+            "import": "./dist/@squanch-vue3/rick.es.js",
+            "require": "./dist/@squanch-vue3/rick.umd.js"
+        }
+    },
+    "scripts": {
+        "build": "vite build"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "dist/*"
+    ],
+    "dependencies": {
+        "vue": "^3.0.5"
+    }
+}
