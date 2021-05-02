@@ -1,19 +1,7 @@
 import path from 'path'
 import merge from './merge'
-import commonConfiguration from './vite.common'
-import clientConfiguration from './vite.client'
+import clientConfiguration from './vite.package'
 const pkg = require(path.resolve(__dirname, 'package.json'))
-
-/**
- * Returns Vite build configuration for common (isomorphic) packages,
- * optionally amended with the specified options
- * @param options Custom build options
- * @returns Vite build configuration
- */
-export function getCommonConfiguration (options = {}) {
-  console.log(`Building common package ${pkg.name} v.${pkg.version} ...`)
-  return getConfiguration(commonConfiguration, options, pkg.name)
-}
 
 /**
  * Returns Vite build configuration for client packages,
