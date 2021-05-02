@@ -1,7 +1,7 @@
 {
     "name": "@squanch-vue3/morty",
     "description": "Vue3 Component Library Component Example for Morty Simith!",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/fatihsinanyaman/vue3-component-library.git"
