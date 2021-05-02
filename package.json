@@ -6,6 +6,7 @@
     "initialize": "npm install && npm run clean && lerna bootstrap",
     "clean": "lerna clean --yes && lerna exec -- rm -rf dist",
     "refresh": "lerna bootstrap",
+    "new": "node ./scripts/new ",
     "build": "lerna run build --stream",
     "publish": "lerna publish",
     "storybook": "start-storybook -p 6006",
@@ -26,10 +27,12 @@
     "@vitejs/plugin-vue": "^1.1.1",
     "@vue/compiler-sfc": "^3.0.5",
     "babel-loader": "^8.2.2",
+    "chalk": "^4.1.1",
     "lerna": "^3.22.1",
     "sass": "^1.32.5",
     "vite": "^2.0.0-beta.44",
-    "vue-loader": "^16.2.0"
+    "vue-loader": "^16.2.0",
+    "yargs": "^16.2.0"
   },
   "dependencies": {
     "vue": "^3.0.11"
