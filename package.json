@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "vite": "^2.2.3"
+  },
+  "dependencies": {
+    "vue": "^3.0.11"
+  }
+}
