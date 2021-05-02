@@ -2,6 +2,8 @@ import path from 'path'
 import merge from './merge'
 import commonConfiguration from './vite.common'
 import clientConfiguration from './vite.client'
+console.log('dur name =>', __dirname);
+console.log("Hey!!!!!!!", path.resolve(__dirname, "package.json"));
 const pkg = require(path.resolve(__dirname, 'package.json'))
 
 /**
