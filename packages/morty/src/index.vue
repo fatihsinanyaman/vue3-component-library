@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="morty">
     <h1>Morty Smith</h1>
     <img
       src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import "./assets/main.css";
 export default {
   name: "morty",
   props: {},
