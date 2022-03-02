@@ -22,12 +22,6 @@
     "license": "(MIT OR Apache-2.0)",
     "main": "./dist/@squanch-vue3/morty.umd.js",
     "module": "./dist/@squanch-vue3/morty.es.js",
-    "exports": {
-        ".": {
-            "import": "./dist/@squanch-vue3/morty.es.js",
-            "require": "./dist/@squanch-vue3/morty.umd.js"
-        }
-    },
     "scripts": {
         "build": "vite build"
     },
