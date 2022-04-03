@@ -3,7 +3,7 @@ Blueprint for large Vue JS projects, using the new and exciting [Vite](https://v
 
 # Live Demo
 Packages storybook live demo: [https://squanch-vue3.netlify.app/](https://squanch-vue3.netlify.app/) 
-Packages NPM organization: [squanch-vue3](https://www.npmjs.com/settings/squanch-vue3/packages)
+Packages NPM organization: [squanch-vue3](https://www.npmjs.com/search?q=squanch-vue3)
 
 ## Install
 Initialize the project as follows:
